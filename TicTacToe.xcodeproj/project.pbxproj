@@ -14,6 +14,8 @@
 		FF2C3F822A4E1C3D009D54E3 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C3F812A4E1C3D009D54E3 /* TicTacToeTests.swift */; };
 		FF2C3F8C2A4E1C3D009D54E3 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C3F8B2A4E1C3D009D54E3 /* TicTacToeUITests.swift */; };
 		FF2C3F8E2A4E1C3D009D54E3 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C3F8D2A4E1C3D009D54E3 /* TicTacToeUITestsLaunchTests.swift */; };
+		FF2C3F9B2A4E1C82009D54E3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C3F9A2A4E1C82009D54E3 /* Cell.swift */; };
+		FF2C3F9D2A4E21DA009D54E3 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C3F9C2A4E21DA009D54E3 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FF2C3F872A4E1C3D009D54E3 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2C3F8B2A4E1C3D009D54E3 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		FF2C3F8D2A4E1C3D009D54E3 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF2C3F9A2A4E1C82009D54E3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		FF2C3F9C2A4E21DA009D54E3 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				FF2C3F702A4E1C3C009D54E3 /* TicTacToeApp.swift */,
 				FF2C3F722A4E1C3C009D54E3 /* ContentView.swift */,
+				FF2C3F9C2A4E21DA009D54E3 /* GameState.swift */,
+				FF2C3F9A2A4E1C82009D54E3 /* Cell.swift */,
 				FF2C3F742A4E1C3D009D54E3 /* Assets.xcassets */,
 				FF2C3F762A4E1C3D009D54E3 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2C3F732A4E1C3C009D54E3 /* ContentView.swift in Sources */,
+				FF2C3F9D2A4E21DA009D54E3 /* GameState.swift in Sources */,
 				FF2C3F712A4E1C3C009D54E3 /* TicTacToeApp.swift in Sources */,
+				FF2C3F9B2A4E1C82009D54E3 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
